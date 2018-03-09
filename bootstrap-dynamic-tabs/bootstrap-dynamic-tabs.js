@@ -191,7 +191,7 @@
 
 			if(settings.ajaxUrl){
 				$.ajax({
-		            mimeType: 'text/html; charset=utf-8', // ! Need set mimeType only when run from local file
+		            //mimeType: 'text/html; charset=utf-8', // ! Need set mimeType only when run from local file
 		            url: settings.ajaxUrl,
 		            type: 'GET',
 		            success: function(data) {
